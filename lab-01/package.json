@@ -1,0 +1,25 @@
+{
+  "name": "lab-01",
+  "version": "1.0.0",
+  "description": "Lab 1: Node.js and Express server - Backend Development Fundamentals",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "http": "node http-server.js",
+    "test:routes": "node test-routes.js"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "backend",
+    "http",
+    "rest-api",
+    "aurora"
+  ],
+  "author": "Adepu Pranay Kumar",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "express": "^5.3.0"
+  }
+}
