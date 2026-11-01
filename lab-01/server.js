@@ -22,9 +22,9 @@ app.get('/', (req, res) => {
 app.get('/about', (req, res) => {
   res.status(200).json({
     name: 'Adepu Pranay Kumar',
-    registrationNumber: '23XXXXXXX', // Update with exact registration number if needed
-    section: 'Year II Term II - Aurora',
-    course: 'Backend Development Fundamentals',
+    registrationNumber: '252U1R1002',
+    section: 'CSE-2A(S-15)',
+    course: 'B.Tech CSE',
     faculty: 'Shiva sai teja'
   });
 });

@@ -1,9 +1,9 @@
 # Lab 1: Node.js and Express server
 
 **Name:** Adepu Pranay Kumar  
-**Registration Number:** 23XXXXXXX  
-**Section:** Year II Term II - Aurora  
-**Course:** Backend Development Fundamentals  
+**Registration Number:** 252U1R1002  
+**Section:** CSE-2A(S-15)  
+**Course:** B.Tech CSE (Backend Development Fundamentals)  
 **Faculty:** Shiva sai teja  
 
 ---

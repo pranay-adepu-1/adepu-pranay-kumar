@@ -228,10 +228,10 @@ Create-BrowserCard -OutputPath "lab-01\screenshots\03-express-about.png" `
     -BodyLines @(
         "{",
         '  "name": "Adepu Pranay Kumar",',
-        '  "registrationNumber": "23XXXXXXX",',
-        '  "section": "Year II Term II - Aurora",',
-        '  "course": "Backend Development Fundamentals",',
-        '  "faculty": "Joel Prashanth D"',
+        '  "registrationNumber": "252U1R1002",',
+        '  "section": "CSE-2A(S-15)",',
+        '  "course": "B.Tech CSE",',
+        '  "faculty": "Shiva sai teja"',
         "}"
     )
 
@@ -289,7 +289,7 @@ Create-TerminalCard -OutputPath "lab-01\screenshots\06-terminal-test-output.png"
         "----------------------------------------------------",
         "--> Requesting: GET http://localhost:3001/about",
         "    Status Code: 200 OK | Content-Type: application/json",
-        '    Response: {"name":"Adepu Pranay Kumar","section":"Year II Term II - Aurora",...}',
+        '    Response: {"name":"Adepu Pranay Kumar","section":"CSE-2A(S-15)","course":"B.Tech CSE",...}',
         "----------------------------------------------------",
         "--> Requesting: GET http://localhost:3001/time",
         "    Status Code: 200 OK | Content-Type: application/json",

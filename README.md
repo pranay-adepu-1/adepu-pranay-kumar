@@ -1,7 +1,9 @@
 # Backend Development Fundamentals — Labs Repository
 
 **Student Name:** Adepu Pranay Kumar  
-**Course:** Backend Development Fundamentals (Year II Term II)  
+**Registration Number:** 252U1R1002  
+**Section:** CSE-2A(S-15)  
+**Course:** B.Tech CSE (Backend Development Fundamentals - Year II Term II)  
 **Institution:** Aurora  
 **Faculty:** Shiva sai teja 
 
