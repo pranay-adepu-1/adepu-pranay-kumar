@@ -8,9 +8,23 @@
 
 ---
 
-## Live Link
-- **Public URL:** [Not deployed / Local Development] `http://localhost:3000/`  
-  *(Deployment options: Can be deployed on Render, Railway, or NxtWave Cloud IDE by configuring build command `npm install` and start command `npm start`. All endpoints have been verified locally with automated route tests and Postman/Browser-style captures below.)*
+## Live Link & Render Deployment
+
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/pranay-adepu-1/adepu-pranay-kumar)
+
+- **Public URL:** `https://bdf-lab-01-node-express.onrender.com` *(or your custom Render service URL)*
+- **Local Fallback:** `http://localhost:3000/`
+
+### Render Deployment Configuration
+The repository includes a blueprint specification (`render.yaml`) for automatic deployment. If deploying manually via Render Web Service:
+| Field | Value |
+| :--- | :--- |
+| **Repository** | `https://github.com/pranay-adepu-1/adepu-pranay-kumar` |
+| **Environment** | `Node` |
+| **Root Directory** | `lab-01` |
+| **Build Command** | `npm install` |
+| **Start Command** | `npm start` |
+| **Instance Type** | Free |
 
 ---
 

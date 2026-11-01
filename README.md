@@ -9,6 +9,8 @@
 
 This repository contains all lab assignments for the Backend Development Fundamentals course, organized by lab directory (`lab-01` to `lab-10`).
 
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/pranay-adepu-1/adepu-pranay-kumar)
+
 ---
 
 ## Course Lab Directory Structure
