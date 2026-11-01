@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: bdf-lab-01-node-express
+    name: adepu-pranay-kumar
     runtime: node
     plan: free
     region: oregon
@@ -12,3 +12,4 @@ services:
         value: 20.x
       - key: PORT
         value: 10000
+

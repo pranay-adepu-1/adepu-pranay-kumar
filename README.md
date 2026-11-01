@@ -4,12 +4,18 @@
 **Registration Number:** 252U1R1002  
 **Section:** CSE-2A(S-15)  
 **Course:** B.Tech CSE (Backend Development Fundamentals - Year II Term II)  
-**Institution:** Aurora  
+**Institution:** Aurora  university 
 **Faculty:** Shiva sai teja 
 
 This repository contains all lab assignments for the Backend Development Fundamentals course, organized by lab directory (`lab-01` to `lab-10`).
 
 [![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/pranay-adepu-1/adepu-pranay-kumar)
+
+### Live Deployment
+- [Home](https://adepu-pranay-kumar.onrender.com/)
+- [About](https://adepu-pranay-kumar.onrender.com/about)
+- [Time](https://adepu-pranay-kumar.onrender.com/time)
+- [Unknown Route](https://adepu-pranay-kumar.onrender.com/unknown)
 
 ---
 

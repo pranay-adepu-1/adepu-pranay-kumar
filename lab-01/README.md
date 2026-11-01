@@ -8,17 +8,19 @@
 
 ---
 
-## Live Link & Render Deployment
+## Live Link
+- [Home](https://adepu-pranay-kumar.onrender.com/)
+- [About](https://adepu-pranay-kumar.onrender.com/about)
+- [Time](https://adepu-pranay-kumar.onrender.com/time)
+- [Unknown Route](https://adepu-pranay-kumar.onrender.com/unknown)
 
 [![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/pranay-adepu-1/adepu-pranay-kumar)
-
-- **Public URL:** `https://bdf-lab-01-node-express.onrender.com` *(or your custom Render service URL)*
-- **Local Fallback:** `http://localhost:3000/`
 
 ### Render Deployment Configuration
 The repository includes a blueprint specification (`render.yaml`) for automatic deployment. If deploying manually via Render Web Service:
 | Field | Value |
 | :--- | :--- |
+| **Service Name** | `adepu-pranay-kumar` |
 | **Repository** | `https://github.com/pranay-adepu-1/adepu-pranay-kumar` |
 | **Environment** | `Node` |
 | **Root Directory** | `lab-01` |
