@@ -39,6 +39,14 @@ app.get('/time', (req, res) => {
   });
 });
 
+// Route delegation: Mount Lab 03 REST API routes (/books, /health, etc.)
+try {
+  const lab03App = require('../lab-03/server');
+  app.use(lab03App);
+} catch (err) {
+  console.log('[Lab 03 Delegate Notice]', err.message);
+}
+
 // Route 4: Catch-all 404 handler for unknown paths
 app.use((req, res) => {
   res.status(404).json({
@@ -56,4 +64,3 @@ if (require.main === module) {
 }
 
 module.exports = app;
-
