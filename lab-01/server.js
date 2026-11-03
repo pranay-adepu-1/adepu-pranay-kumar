@@ -3,6 +3,8 @@ const express = require('express');
 const app = express();
 const PORT = process.env.PORT || 3000;
 
+app.use(express.json());
+
 // Logging middleware to log incoming requests and responses
 app.use((req, res, next) => {
   const start = Date.now();
@@ -39,10 +41,15 @@ app.get('/time', (req, res) => {
   });
 });
 
-// Route delegation: Mount Lab 03 REST API routes (/books, /health, etc.)
+// Mount Lab 03 REST API routes
 try {
-  const lab03App = require('../lab-03/server');
-  app.use(lab03App);
+  let lab03;
+  try {
+    lab03 = require('../lab-03/server');
+  } catch (e) {
+    lab03 = require('./lab03-router');
+  }
+  app.use(lab03);
 } catch (err) {
   console.log('[Lab 03 Delegate Notice]', err.message);
 }
