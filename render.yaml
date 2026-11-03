@@ -1,10 +1,10 @@
 services:
+  # Primary unified service running the full multi-lab application
   - type: web
     name: adepu-pranay-kumar
     runtime: node
     plan: free
     region: oregon
-    rootDir: lab-01
     buildCommand: npm install
     startCommand: npm start
     envVars:
@@ -13,3 +13,17 @@ services:
       - key: PORT
         value: 10000
 
+  # Standalone service for Lab 03
+  - type: web
+    name: adepu-pranay-kumar-lab-03
+    runtime: node
+    plan: free
+    region: oregon
+    rootDir: lab-03
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: NODE_VERSION
+        value: 20.x
+      - key: PORT
+        value: 10000

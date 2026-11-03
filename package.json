@@ -1,17 +1,23 @@
 {
   "name": "backend-development-fundamentals-labs",
   "version": "1.0.0",
-  "description": "Backend Development Fundamentals Lab Assignments - Aurora",
-  "main": "lab-01/server.js",
+  "description": "Backend Development Fundamentals Lab Assignments - Aurora University",
+  "main": "server.js",
   "scripts": {
-    "start": "node lab-01/server.js",
-    "build": "cd lab-01 && npm install",
-    "test": "cd lab-01 && npm run test:routes"
+    "start": "node server.js",
+    "start:lab-01": "cd lab-01 && npm start",
+    "start:lab-03": "cd lab-03 && npm start",
+    "build": "npm install && cd lab-01 && npm install && cd ../lab-03 && npm install",
+    "test": "cd lab-03 && npm test",
+    "test:lab-01": "cd lab-01 && npm run test:routes",
+    "test:lab-03": "cd lab-03 && npm test"
   },
   "author": "Adepu Pranay Kumar",
   "license": "ISC",
   "dependencies": {
-    "express": "^5.3.0"
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^5.3.0",
+    "sqlite3": "^6.0.1"
   }
 }
-

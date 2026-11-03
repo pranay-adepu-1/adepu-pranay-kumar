@@ -13,9 +13,12 @@ yarn-debug.log*
 yarn-error.log*
 *.log
 
+# Database files
+*.db
+*.db-journal
+
 # OS / Editor Files
 .DS_Store
 Thumbs.db
 .vscode/
 .idea/
-

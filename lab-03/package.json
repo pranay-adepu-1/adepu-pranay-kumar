@@ -1,0 +1,31 @@
+{
+  "name": "lab-03",
+  "version": "1.0.0",
+  "description": "Lab 3: REST API, query parameters, validation, and debugging - Backend Development Fundamentals",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "test": "node test-routes.js",
+    "test:routes": "node test-routes.js",
+    "seed": "node -e \"require('./db').seedDatabase()\""
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "rest-api",
+    "sqlite3",
+    "query-parameters",
+    "validation",
+    "debugging",
+    "aurora"
+  ],
+  "author": "Adepu Pranay Kumar",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^5.3.0",
+    "sqlite3": "^6.0.1"
+  }
+}
