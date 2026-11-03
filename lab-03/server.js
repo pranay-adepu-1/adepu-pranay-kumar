@@ -1,13 +1,34 @@
-require('dotenv').config();
-const express = require('express');
-const cors = require('cors');
+const path = require('path');
+
+function safeRequire(pkg) {
+  try {
+    return require(pkg);
+  } catch (err) {
+    try {
+      return require(path.join(__dirname, '..', 'lab-01', 'node_modules', pkg));
+    } catch (err2) {
+      return require(path.join(__dirname, '..', 'node_modules', pkg));
+    }
+  }
+}
+
+try {
+  safeRequire('dotenv').config();
+} catch (e) {
+  // Ignore if dotenv is not present
+}
+
+const express = safeRequire('express');
+const cors = safeRequire('cors');
 const { queryAll, queryOne, execute } = require('./db');
 
 const app = express();
 const PORT = process.env.PORT || 3000;
 
 // Enable CORS and JSON parsing
-app.use(cors());
+if (cors) {
+  app.use(cors());
+}
 app.use(express.json());
 
 // Request logging middleware

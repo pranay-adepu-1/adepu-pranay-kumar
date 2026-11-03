@@ -1,5 +1,19 @@
 const path = require('path');
-const sqlite3 = require('sqlite3').verbose();
+
+function safeRequire(pkg) {
+  try {
+    return require(pkg);
+  } catch (err) {
+    try {
+      return require(path.join(__dirname, '..', 'lab-01', 'node_modules', pkg));
+    } catch (err2) {
+      return require(path.join(__dirname, '..', 'node_modules', pkg));
+    }
+  }
+}
+
+const sqlite3Module = safeRequire('sqlite3');
+const sqlite3 = sqlite3Module.verbose ? sqlite3Module.verbose() : sqlite3Module;
 
 // Determine database file location (file-based or in-memory)
 const dbPath = process.env.NODE_ENV === 'test'
