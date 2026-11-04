@@ -135,7 +135,7 @@ function Create-ApiCard {
     }
 
     # Footer
-    $footerText = "Student: Adepu Pranay Kumar (252U1R1002) · Section: CSE-2A(S-15) · Faculty: Joel Prashanth D"
+    $footerText = "Student: Adepu Pranay Kumar (252U1R1002) · Section: CSE-2A(S-15) · Faculty: MR.sai shiva teja"
     $g.DrawString($footerText, $fontSmall, $brushMuted, 20, $height - 16)
 
     $bmp.Save($OutputPath, [System.Drawing.Imaging.ImageFormat]::Png)
@@ -401,3 +401,4 @@ Create-ApiCard `
     )
 
 Write-Host "All 10 visual capture cards created successfully in screenshots folder!"
+

@@ -5,7 +5,7 @@
 **Section:** CSE-2A(S-15)  
 **Course:** B.Tech CSE (Backend Development Fundamentals · Year II Term II)  
 **Institution:** Aurora University  
-**Faculty:** Joel Prashanth D  
+**Faculty:** MR.sai shiva teja 
 **Content Week:** 3 (Slots 13–19)  
 **Module:** RESTful API development and validation  
 

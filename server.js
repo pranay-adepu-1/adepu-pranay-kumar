@@ -28,7 +28,7 @@ app.get('/', (req, res) => {
       name: 'Adepu Pranay Kumar',
       registrationNumber: '252U1R1002',
       section: 'CSE-2A(S-15)',
-      faculty: 'Joel Prashanth D / Shiva sai teja'
+      faculty: 'MR.sai shiva teja'
     },
     status: 'online',
     labs: {
@@ -77,3 +77,4 @@ if (require.main === module) {
 }
 
 module.exports = app;
+

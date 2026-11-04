@@ -2,7 +2,7 @@
 
 **Course:** Backend Development Fundamentals (Year II Term II)  
 **Institution:** Aurora University  
-**Faculty:** Joel Prashanth D  
+**Faculty:** MR.sai shiva teja  
 **Student:** Adepu Pranay Kumar  
 **Registration Number:** 252U1R1002  
 **Section:** CSE-2A(S-15)  
@@ -164,3 +164,4 @@ const books = await queryAll(sql); // Awaits and returns Array of rows
 | **2** | Module Resolution | `MODULE_NOT_FOUND` | Incorrect relative import path | Corrected path to `../db` |
 | **3** | Database Query | `SQLITE_ERROR: no such table` | Typo in SQL table name (`tbl_books`) | Corrected table name to `books` |
 | **4** | Asynchronous Flow | Premature response / `{}` payload | Missing `await` on DB Promise | Added `await queryAll(sql)` |
+

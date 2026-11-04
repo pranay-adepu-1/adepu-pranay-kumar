@@ -50,7 +50,8 @@ app.get('/', (req, res) => {
       registrationNumber: '252U1R1002',
       section: 'CSE-2A(S-15)',
       course: 'B.Tech CSE - Backend Development Fundamentals (Year II Term II)',
-      institution: 'Aurora University'
+      institution: 'Aurora University',
+      faculty: 'MR.sai shiva teja'
     },
     documentation: {
       endpoints: [

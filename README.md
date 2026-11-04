@@ -5,7 +5,7 @@
 **Section:** CSE-2A(S-15)  
 **Course:** B.Tech CSE (Backend Development Fundamentals - Year II Term II)  
 **Institution:** Aurora University  
-**Faculty:** Joel Prashanth D / Shiva sai teja  
+**Faculty:** MR.sai shiva teja  
 
 This repository contains all lab assignments for the Backend Development Fundamentals course, organized by lab directory (`lab-01` to `lab-10`).
 
