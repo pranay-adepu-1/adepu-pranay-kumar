@@ -1,7 +1,0 @@
-node_modules/
-.env
-*.log
-books.db
-books.db-journal
-screenshots/*.tmp
-
